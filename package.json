@@ -1,0 +1,16 @@
+{
+  "name": "babel-bug-2997",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -o compiled.js"
+  },
+  "author": "James Kyle <me@thejameskyle.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.1.4",
+    "babel-plugin-transform-es2015-classes": "^6.1.4"
+  },
+  "private": true
+}
