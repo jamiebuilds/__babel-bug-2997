@@ -4,8 +4,7 @@ class A {}
 
 class B extends A {
   constructor() {
-    var a;
-    return a = super(), a;
+    return super();
   }
 
   // works:
